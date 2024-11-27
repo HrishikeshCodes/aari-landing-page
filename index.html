@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ramaraja&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9d0869f23a.js" crossorigin="anonymous"></script>
+    <!-- Ensure this is the last script in your head for optimal performance -->
+    <title>AARI Farms</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar" navbar-scroll>
+            <nav class="navbar-center">
+                <div class="logo">
+                    <a href="/">
+                        <img class="logo" src="assets/logo/logo.png" alt="logo">
+                    </a>
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <!-- Navigation Links -->
+                <div class="navigation montserrat-regular" id="nav-links">
+                    <ul>
+                        <li><a href="/">Home Page</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#our-story">Our Story</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <img onerror="this.style.display='none'" class="leaves-image-top-right" src="assets/leaves.png" alt="">
+        </div>
+        <div>
+            <img onerror="this.style.display='none'" class="leaves-image-left" src="assets/leaves.png" alt="">
+        </div>
+        <div id="hero" class="hero background-color-gradient">
+
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1 class="hero-title">
+                        Discover the Essence of Natural Living
+                    </h1>
+                    <div>
+                        <p class="hero-subtext montserrat-extralight">
+                            At AARI Organics, we believe in the power of nature. Our premium, handmade products are
+                            crafted
+                            with care, using sustainable methods and pure ingredients to nurture both you and the
+                            planet.
+                        </p>
+                    </div>
+                    <div class="hero-action-button">
+                        <button class="buttons">Explore</button>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <img id="changing-image" class="product-image" src="/assets/finalghee_transparent.png"
+                        alt="ghee image">
+                </div>
+            </div>
+        </div>
+        <div id="products" class="products-section">
+            <div class="wave-svg">
+                <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" preserveAspectRatio="none"
+                    xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+                    <path
+                        d="M 0,400 L 0,90 C 76.6345729013255,100.27927098674522 153.269145802651,110.55854197349042 212,105 C 270.730854197349,100.44145802650958 311.5579896907216,81.0451030927835 364,73 C 416.4420103092784,64.95489690721649 480.4988954344625,68.261045655375554 534,76 C 587.5011045655375,83.73895434462445 630.4464285714284,95.91071428571429 693,99 C 755.5535714285716,102.08928571428571 837.7153902798235,96.0960972017673 900,92 C 962.2846097201765,87.9039027982327 1004.6920103092782,85.70489690721651 1066,87 C 1127.3079896907218,88.29510309278349 1207.5165684830633,93.0843151693667 1273,94 C 1338.4834315169367,94.9156848306333 1389.2417157584682,91.95784241531665 1440,89 L 1440,400 L 0,400 Z"
+                        stroke="none" stroke-width="0" fill="var(--colorDark3)" fill-opacity="1"
+                        class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
+                    <path
+                        d="M 0,400 L 0,170 C 57.34204712812959,154.68078055964654 114.68409425625919,139.36156111929307 168,142 C 221.3159057437408,144.63843888070693 270.60567010309285,165.23453608247425 335,177 C 399.39432989690715,188.76546391752575 478.89322533136965,191.70029455081004 549,181 C 619.1067746686304,170.29970544918996 679.8214285714286,145.96428571428572 729,145 C 778.1785714285714,144.03571428571428 815.8210603829162,166.44256259204712 872,183 C 928.1789396170838,199.55743740795288 1002.8943298969073,210.26546391752578 1079,203 C 1155.1056701030927,195.73453608247422 1232.6016200294553,170.4955817378498 1293,162 C 1353.3983799705447,153.5044182621502 1396.6991899852724,161.75220913107512 1440,170 L 1440,400 L 0,400 Z"
+                        stroke="none" stroke-width="0" fill="var(--colorDark2)" fill-opacity="1"
+                        class="transition-all duration-300 ease-in-out delay-150 path-1"></path>
+                    <path
+                        d="M 0,400 L 0,255 C 64.63954344624447,237.6614506627393 129.27908689248895,220.32290132547865 189,222 C 248.72091310751105,223.67709867452135 303.5231958762887,244.36984536082474 357,262 C 410.4768041237113,279.63015463917526 462.62812960235635,294.1977172312224 513,284 C 563.3718703976436,273.8022827687776 611.9642857142857,238.8392857142857 687,241 C 762.0357142857143,243.1607142857143 863.5147275405008,282.4451399116348 930,288 C 996.4852724594992,293.5548600883652 1027.9768041237112,265.3801546391752 1079,248 C 1130.0231958762888,230.6198453608248 1200.578055964654,224.03424153166424 1264,227 C 1327.421944035346,229.96575846833576 1383.7109720176732,242.48287923416785 1440,255 L 1440,400 L 0,400 Z"
+                        stroke="none" stroke-width="0" fill="var(--colorDark1)" fill-opacity="1"
+                        class="transition-all duration-300 ease-in-out delay-150 path-2"></path>
+                </svg>
+            </div>
+            <div class="display-products">
+                <h2 class="ramaraja-regular">
+                    Products
+                </h2>
+                <div class="product-collection">
+                    <div>
+                        <h3 class="montserrat-bold">A2 Cow Hand Churned Ghee</h3>
+                        <p class="product-subtext montserrat-thin">
+                            Discover our range of organic, homemade A2 Ghee.
+                        </p>
+                    </div>
+                    <button ghee-scroll-left class="scroll-btn left">
+                        <i class="fa-solid fa-arrow-left "></i>
+                    </button>
+                    <button ghee-scroll-right class="scroll-btn right">
+                        <i class="fa-solid fa-arrow-right "></i>
+                    </button>
+                    <div ghee-container class="product-container">
+                        <!-- Product cards -->
+                        <div class="product-card">
+                            <img src="/assets/ghee/image (1).jpg" alt="Lavender Soap">
+                            <h4>Lavender Soap</h4>
+                            <p>$5.99</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="/assets/ghee/image (2).jpg" alt="Mint Soap">
+                            <h4>Mint Soap</h4>
+                            <p>$6.99</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="/assets/ghee/image (3).jpg" alt="Rose Soap">
+                            <h4>Rose Soap</h4>
+                            <p>$7.99</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="/assets/ghee/image (4).jpg" alt="Charcoal Soap">
+                            <h4>Charcoal Soap</h4>
+                            <p>$8.99</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="/assets/ghee/image.jpg" alt="Herbal Soap">
+                            <h4>Herbal Soap</h4>
+                            <p>$9.99</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div soap-container class="product-collection">
+                    <div>
+                        <h3 class="montserrat-bold">Soap Collection</h3>
+                        <p class="product-subtext montserrat-thin">
+                            Discover our range of organic, handmade Soaps with 100% pure oils.
+                        </p>
+                    </div>
+                    <button soap-scroll-left class="scroll-btn left">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <button soap-scroll-right class="scroll-btn right">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    <div class=" product-container">
+                        <!-- Product cards -->
+                        <div class="product-card">
+                            <img src="/assets/soap/image (10).jpg" alt="Lavender Soap">
+                            <h4>Lavender Soap</h4>
+                            <p>$5.99</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="/assets/soap/image (11).jpg" alt="Mint Soap">
+                            <h4>Mint Soap</h4>
+                            <p>$6.99</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="/assets/soap/image (12).jpg" alt="Rose Soap">
+                            <h4>Rose Soap</h4>
+                            <p>$7.99</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="/assets/soap/image (7).jpg" alt="Charcoal Soap">
+                            <h4>Charcoal Soap</h4>
+                            <p>$8.99</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="/assets/soap/image (8).jpg" alt="Herbal Soap">
+                            <h4>Herbal Soap</h4>
+                            <p>$9.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="our-story" class="our-story-section">
+            <div style="background-color: var(--colorLight1)" class="our-story-top-border "></div>
+            <div class="our-story-content">
+                <div class="story-left">
+                    <div class="story-image-wrapper">
+                        <img class="story-image" src="assets/cow-farmer.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="story-right">
+                    <h2 class="heading-2 story-heading">Purity You Can Trust – Straight from Nature</h2>
+                    <p class=" montserrat-regular">
+                        We believe in bringing you the purest products, sourced directly from nature. Every ingredient
+                        is carefully selected,
+                        free from harmful chemicals, synthetic additives, and artificial preservatives. Our commitment
+                        to purity means that what
+                        you put on your body or consume is 100% natural, wholesome, and made with love and care.
+                    </p>
+                    <div class="card-collection">
+                        <div class="story-card">
+                            <i class="fa-solid fa-leaf"></i>
+                            <h4 class="montserrat-bold"> Purely Organic</h4>
+                            <p class="montserrat-light">Crafted using all-natural ingredients with no harmful
+                                chemicals or additives.</p>
+                        </div>
+                        <div class="story-card">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                            <h4 class="montserrat-bold">Handcrafted Excellence</h4>
+                            <p class="montserrat-light">Lovingly made in small batches for superior quality and
+                                uniqueness.</p>
+                        </div>
+                        <div class="story-card">
+                            <i class="fas fa-seedling"></i>
+                            <h4 class="montserrat-bold">Tradition & Purity</h4>
+                            <p class="montserrat-light">Prepared using age-old techniques and raw materials from
+                                Indian
+                                breed cows.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="background-color: var(--colorLight1)" class="our-story-top-border "></div>
+        </div>
+        <div id="testimonial" class="testimonial-section">
+            <div class="testimonial-collection">
+                <div>
+                    <h2 class="montserrat-bold">Customer Experiences That Inspire Us</h2>
+                </div>
+                <button testimonial-scroll-left class="scroll-btn left">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button testimonial-scroll-right class="scroll-btn right">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <div testimonial-container class="testimonial-container">
+                    <!-- testimonial cards -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-left">
+                            <img src="/assets/ghee/image (1).jpg">
+                        </div>
+                        <div class="testimonial-card-right">
+                            <p>"AARI Organics has transformed my daily routine. Their products are not only effective
+                                but also eco-friendly, making me
+                                feel good about my choices."</p>
+                            <img src="/assets//customer-images/cust-1.png">
+                            <h4>Raju Rastogu</h4>
+                            <p>Mumbai</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-left">
+                            <img src="/assets/ghee/image (1).jpg">
+                        </div>
+                        <div class="testimonial-card-right">
+                            <p>"AARI Organics has transformed my daily routine. Their products are not only effective
+                                but also eco-friendly, making me
+                                feel good about my choices."</p>
+                            <img src="/assets//customer-images/cust-2.png">
+                            <h4>Raju Rastogu</h4>
+                            <p>Mumbai</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-left">
+                            <img src="/assets/ghee/image (1).jpg">
+                        </div>
+                        <div class="testimonial-card-right">
+                            <p>"AARI Organics has transformed my daily routine. Their products are not only effective
+                                but also eco-friendly, making me
+                                feel good about my choices."</p>
+                            <img src="/assets//customer-images/cust-3.png">
+                            <h4>Raju Rastogu</h4>
+                            <p>Mumbai</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-left">
+                            <img src="/assets/ghee/image (1).jpg">
+                        </div>
+                        <div class="testimonial-card-right">
+                            <p>"AARI Organics has transformed my daily routine. Their products are not only effective
+                                but also eco-friendly, making me
+                                feel good about my choices."</p>
+                            <img src="/assets//customer-images/cust-4.png">
+                            <h4>Raju Rastogu</h4>
+                            <p>Mumbai</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="new-products" class="new-products-section">
+            <h2 class="montserrat-bold">New Products Coming Soon!</h2>
+            <p class="montserrat-regular sub-text">Explore our range of natural, handmade products today! Stay tuned for
+                our
+                latest organic creations</p>
+            <button class="buttons cta-button montserrat-regular">
+                <a href="explore.html" class="cta-a">Explore Now</a>
+            </button>
+
+        </div>
+        <div id="contact" class="contact-section">
+            <h2 class="contact-title montserrat-bold">Get in Touch</h2>
+            <p class="contact-description montserrat-regular sub-text">We'd love to hear from you. Feel free to reach
+                out with
+                any
+                inquiries or feedback!</p>
+            <form class="contact-form" action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button class="buttons contact-cta-button montserrat-regular" type="submit">
+                    <a href="#" class="contact-cta-a">Send Message</a>
+                </button>
+            </form>
+            <div class="contact-info">
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                <p>Email: <a href="mailto:info@example.com">support@aari.com</a></p>
+                <p>Address: 123 Street, Chennai, India</p>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-icons">
+                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com" target="_blank" aria-label="Twitter"><i
+                        class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="footer-text">
+                © 2024 Your Website Name. All rights reserved.
+            </div>
+        </footer>
+    </main>
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
